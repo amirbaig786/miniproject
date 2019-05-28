@@ -11,6 +11,8 @@ struct tosort
 };
 int partition(struct tosort ob[],int low,int high)
 {
+
+
 int p=ob[low].pr;
 int i=low+1;
 int j=high;
